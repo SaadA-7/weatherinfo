@@ -6,7 +6,7 @@ Group Members: Saad Ahmad ADDIDD LATER, Ceyhun Yagar PUTHISDID
 
 App Description: Weather tracking application that allows users to search for current weather conditions by city name, stores search history in MongoDB.
 
-YouTube Video Link: TODO
+YouTube Video Link: https://youtu.be/OI5wsmJWvyU
 
 APIs: Weatherbit Current Weather API (https://www.weatherbit.io/api/weather-current)
 
