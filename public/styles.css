@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Exo 2", sans-serif;
+  background-color: #f5f7fa;
+  color: grey;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background-color: teal;
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+nav {
+  margin-top: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.search-section {
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+}
+
+.search-section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+  font-size: 16px;
+  font-family: "Exo 2", sans-serif;
+}
+
+button {
+  background-color: teal;
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 4px;
+  font-size: 18px;
+  cursor: pointer;
+  font-family: "Exo 2", sans-serif;
+  font-weight: 500;
+}
+
+button:hover {
+  background-color: darkcyan;
+}
+
+.weather-result {
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  display: none;
+}
+
+.weather-result.show {
+  display: block;
+}
+
+.weather-result h3 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: grey;
+}
+
+.weather-details {
+  font-size: 18px;
+}
+
+.weather-details p {
+  margin-bottom: 10px;
+}
+
+.error-message {
+  background-color: lightcoral;
+  color: white;
+  padding: 15px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  display: none;
+}
+
+.error-message.show {
+  display: block;
+}
+
+.history-list {
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.history-item {
+  padding: 20px;
+  border-bottom: 1px solid whitesmoke;
+}
+
+.history-item:last-child {
+  border-bottom: none;
+}
+
+.history-item h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: teal;
+}
+
+.history-item p {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.clear-btn {
+  background-color: lightcoral;
+  margin-top: 20px;
+}
+
+.clear-btn:hover {
+  background-color: coral;
+}
+
+.no-history {
+  text-align: center;
+  color: grey;
+  font-size: 18px;
+  padding: 40px;
+}
+
+.loading {
+  text-align: center;
+  color: grey;
+  font-size: 18px;
+  padding: 40px;
+}

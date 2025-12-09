@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Journal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Weather Journal</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="history.html">History</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="search-section">
+      <h2>Search Weather</h2>
+      <form id="searchForm">
+        <div class="form-group">
+          <label for="cityInput">Enter City Name:</label>
+          <input type="text" id="cityInput" name="city" placeholder="e.g., London, Tokyo, New York" required>
+        </div>
+        <button type="submit">Get Weather</button>
+      </form>
+    </div>
+
+    <div class="error-message" id="errorMessage"></div>
+
+    <div class="weather-result" id="weatherResult">
+      <h3 id="cityName"></h3>
+      <div class="weather-details">
+        <p id="temperature"></p>
+        <p id="description"></p>
+        <p id="humidity"></p>
+        <p id="windSpeed"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
