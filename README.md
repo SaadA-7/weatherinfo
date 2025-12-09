@@ -12,4 +12,4 @@ APIs: Weatherbit Current Weather API (https://www.weatherbit.io/api/weather-curr
 
 Contact Email: ADDLATER
 
-Deployed App Link: TODO
+Deployed App Link: https://weatherinfo-ezgo.onrender.com/
